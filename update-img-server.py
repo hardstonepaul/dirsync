@@ -15,4 +15,7 @@ sync(esferos, catalogo, 'sync', purge = True)
 #sudo chmod 755 -R /home/iejj8sumklhb/public_html/img
 
 # put all folders in a 755
-#find /opt/lampp/htdocs -type d -exec chmod 755 {} \;
+#find /home/c4t4l0g0esp/public_html/img -type d -exec chmod 755 {} \;
+
+#----- to restore folder owner
+# sudo chown -R c4t4l0g0esp:c4t4l0g0esp /home/iejj8sumklhb/public_html/img
